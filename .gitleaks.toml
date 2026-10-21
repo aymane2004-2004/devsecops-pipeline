@@ -1,0 +1,10 @@
+title = "devsecops-pipeline gitleaks config"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Faux positifs connus"
+paths = [
+  '''docs/.*''',
+]
